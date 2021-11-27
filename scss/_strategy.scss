@@ -1,0 +1,88 @@
+.strategy{
+    background-color: white;
+}
+
+.strategy__wrap{
+    padding: 112px 0 55px;
+    text-align: center;
+}
+
+.strategy__title{
+    margin: 0;
+    width: 470px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.stategy__text{
+    width: 470px;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-bottom: 112px;
+    color: #737373;
+}
+
+.strategy__cards{
+    opacity: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    transition: 1s ease;
+}
+
+.strategy__cards.active{
+    opacity: 1;
+}
+
+.strategy__card{
+    padding-bottom: 30px;
+    border: 1px solid #A9D6FF;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: start;
+    transition: 0.5s ease;
+}
+
+.strategy__card.active{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    .card__title{
+        background-color: #23A6F0;
+    }
+}
+
+.card__title{
+    color: white;
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #A9D6FF;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.card__title::before{
+    content: url(../img/icon1.png);
+    margin-right: 15px;
+    border-radius: 100%;
+    padding: 23px;
+    background-color: white;
+}
+
+.card__list{
+    list-style-position: inside;
+    list-style-type: "-  ";
+    padding: 0 50px;
+    text-align: start;
+}
+
+.card__item{
+    line-height: 24px;
+    color: #737373;
+    margin-bottom: 5px;
+}
+
+.card__link{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #23A6F0;
+}

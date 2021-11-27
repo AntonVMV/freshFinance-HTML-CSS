@@ -1,0 +1,94 @@
+.wellcome{
+    width: 100%;
+    background-color: rgb(126, 127, 128)
+}
+
+.wellcome__wrap{
+    padding: 154px 0 53px;
+    background: url(../img/wellcomebg.png) center bottom no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wellcome__info{
+    opacity: 0;
+    transition: 1s ease 0.5s;
+    transform: translateX(-50%);
+    max-width: 500px;
+}
+
+.wellcome__info.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.wellcome__title{
+    color: #fff;
+    line-height: 80px;
+    margin: 0 0 35px;
+}
+
+.wellcome__text{
+    color: #fff;
+    line-height: 30px;
+    margin: 0 0 35px;
+}
+
+.wellcome__buttons {
+    display: flex;
+}
+
+.wellcome__button{
+    margin-right: 10px;
+    padding: 15px 36px;
+    border: 1px solid #fff;
+    border-radius: 37px;
+    background-color: transparent;
+    color: #fff;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.wellcome__form{
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 328px;
+    opacity: 0;
+    transition: 1s ease 0.5s;
+    transform: translateX(50%);
+}
+
+.wellcome__form.active{
+    transform: translate(0);
+    opacity: 1;
+}
+
+.form_label{
+    margin: 0;
+}
+
+.form__input{
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    padding: 15px 21px;
+}
+
+.form__input::placeholder {
+    color: #737373;
+  }
+
+.form__button{
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+

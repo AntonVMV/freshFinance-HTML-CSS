@@ -1,0 +1,27 @@
+.advantage{
+    background-color: #252B42;
+}
+
+.advantage__wrap{
+    padding: 100px 0 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    justify-items: center;
+}
+
+.advantage__title{
+    margin: 0 0 15px;
+    color: white;
+}
+
+.advantage__text{
+    margin: 0;
+    color: white;
+    line-height: 20px;
+}
+
+.advantage__img{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}

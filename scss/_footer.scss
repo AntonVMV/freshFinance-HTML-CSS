@@ -1,0 +1,38 @@
+.footer{
+    background-color: white;
+}
+
+.footer__wrap{
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+
+.footer{
+    li{
+        color: #737373;
+        margin-bottom: 10px;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    p{
+        color: #737373;
+    }
+    h3{
+        margin: 0 0 20px;
+    }
+}
+
+.footer__links{
+    display: flex;
+    align-items: center;
+}
+
+.footer__links{
+    a{
+        margin-right: 10px;
+    }
+}

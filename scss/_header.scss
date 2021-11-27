@@ -1,0 +1,45 @@
+.header{
+    position: absolute;
+    width: 100%;
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 91px;
+}
+
+.logo{
+    text-decoration: none;
+    line-height: 32px;
+    color: #fff;
+    margin-right: 75px;
+}
+
+.menu__list{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+    line-height: 24px;
+}
+
+.header__button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-left: 45px;
+}
+
+.header__login{
+    margin-left: auto;
+    text-decoration: none;
+    color: #fff;
+    line-height: 22px;
+}
+
+.header__button::after{
+    display: inline-block;
+    content: url(../img/arrow-rigth.png);
+    margin-left: 15px;
+}

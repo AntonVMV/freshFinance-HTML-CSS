@@ -1,0 +1,46 @@
+.reviews__wrap{
+    text-align: center;
+    padding: 112px 0;
+}
+
+.reviews__title{
+    margin-bottom: 10px;
+}
+
+.reviews__text{
+    color: #737373;
+    line-height: 20px;
+    max-width: 470px;
+    margin: 0 auto 80px;
+}
+
+.reviews__cards{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: 1s ease;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.reviews__cards.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.rewiew__card{
+    margin: 0 15px;
+    padding: 40px 35px;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.review__card_avatar{
+    margin-bottom: 30px;
+}
+
+.review__card_text{
+    margin-bottom: 15px;
+    color: #737373;
+}

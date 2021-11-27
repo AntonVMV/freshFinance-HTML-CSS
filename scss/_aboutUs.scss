@@ -1,0 +1,59 @@
+.aboutus__wrap{
+    text-align: center;   
+    padding: 112px 0;
+}
+
+.aboutus__title{
+    margin: 0 0 10px;
+}
+
+.aboutus__text{
+    line-height: 20px;
+    margin: 0 auto 96px;
+    max-width: 470px;
+    color: #737373;
+}
+
+.aboutus__content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 124px;
+}
+
+.aboutus__info{
+    text-align: start;
+}
+
+.aboutus__info_title{
+    line-height: 32px;
+    margin: 0 0 10px;
+}
+
+.aboutus__info_text{
+    color: #737373;
+    line-height: 20px;
+    margin: 0 0 50px;
+}
+
+.sub__title{
+    line-height: 24px;
+    margin: 0 0 5px 20px;
+}
+
+.sub__text{
+    line-height: 24px;
+    color: #737373;
+    margin: 0 0 0 20px;
+}
+
+.aboutus__info_sub{
+    display: grid;
+    grid-template-columns: 35px auto;
+    margin-bottom: 30px;
+}
+
+.aboutus__info_sub::before{
+    content: url(../img/icnSet1.png);
+    grid-row: 1 / 3;
+}

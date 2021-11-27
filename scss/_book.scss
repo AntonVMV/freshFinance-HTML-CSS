@@ -1,0 +1,26 @@
+.book__wrap{
+    height: 400px;
+    position: relative;
+}
+
+.book__form{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 50px;
+    padding-right: 50px;
+    position: absolute;
+    width: 835px;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+}
+
+.book__form_img{
+    grid-row: 1 / 11;
+}
+
+.book__form_btn{
+    margin-bottom: 30px;
+}

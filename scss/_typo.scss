@@ -1,0 +1,86 @@
+$text-xs: 14px;
+$text-s: 16px;
+$text-m: 20px;
+$text-l: 24px;
+$title-xl: 40px;
+$title-xxl: 58px;
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+%text{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.text-xsmall_thin{
+    @extend %text;
+    font-size: $text-xs;
+    font-weight: 500;
+}
+
+.text-xsmall{
+    @extend %text;
+    font-size: $text-xs;
+    font-weight: 600;
+}
+
+.text-xsmall_bold{
+    @extend %text;
+    font-size: $text-xs;
+    font-weight: 700;
+}
+
+.text-small{
+    @extend %text;
+    font-size: $text-s;
+    font-weight: 700;
+}
+
+.text-medium{
+    @extend %text;
+    font-size: $text-m;
+    font-weight: 50;
+}
+
+.text-large{
+    @extend %text;
+    font-size: $text-l;
+    font-weight: 700;
+}
+
+.text-xlarge{
+    @extend %text;
+    font-size: $title-xl;
+    font-weight: 700;
+    line-height: 57px;
+}
+
+
+.text-xxlarge{
+    @extend %text;
+    font-size: $title-xxl;
+    font-weight: 800;
+}

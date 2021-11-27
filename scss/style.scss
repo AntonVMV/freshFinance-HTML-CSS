@@ -1,0 +1,30 @@
+@import "_typo";
+@import "_header";
+@import "_wellcome";
+@import "_strategy";
+@import "_reviews";
+@import "_aboutUs";
+@import "_pricing";
+@import "_advantage";
+@import "_book";
+@import "_footer";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.wrap{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.button{
+    border: none;
+    color: #fff;
+    background-color: #23A6F0;
+    line-height: 22px;
+    cursor: pointer;
+}
