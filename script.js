@@ -6,7 +6,7 @@ function onEntry(entry) {
     });
 }
 
-let options = { threshold: [0.3] };
+let options = { threshold: [0.1] };
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.element-animation');
 for (let elm of elements) {
@@ -39,5 +39,5 @@ const burgerMenu = document.querySelector('.menu__list');
 burgerBtn.addEventListener('click', burgerToggle);
 
 function burgerToggle() {
-    burgerMenu.classList.toggle('hidden');    
+    burgerMenu.classList.toggle('hidden');   
 }

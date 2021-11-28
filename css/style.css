@@ -75,6 +75,7 @@
 .header {
   position: absolute;
   width: 100%;
+  overflow: hidden;
 }
 
 .header__wrap {
@@ -161,6 +162,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .menu__list {
+    display: none;
   }
   .menu__list {
     position: relative;

@@ -1,7 +1,9 @@
 .header{
     position: absolute;
     width: 100%;
+    overflow: hidden;
 }
+
 .header__wrap{
     display: flex;
     justify-content: space-between;
@@ -72,6 +74,10 @@
     }
 
     .menu__list{
+        display: none;
+    }
+
+    .menu__list{
         position: relative;
         width: 100%;
         color: #737373;
@@ -85,6 +91,7 @@
     }
 
     .hidden{
+
         transition: all 0.5s ease;
         position: absolute;
         transform: translateX(-100%);
