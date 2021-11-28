@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .wellcome__info{
@@ -92,3 +91,45 @@
     margin-top: 30px;
 }
 
+@media screen and (max-width: 450px) {
+    .wellcome{
+        background: url(../img/wellcomebg.png) center center no-repeat;
+        background-size: cover;
+    }
+
+    .wellcome__title{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    .wellcome__wrap{
+        flex-wrap: wrap;
+        padding: 84px 0;
+        background-image: none;
+    }
+
+    .wellcome__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .wellcome__text{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        width: 302px;
+        margin: 0 auto 35px;
+    }
+
+    .wellcome__buttons {
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+        justify-content: space-between;
+        height: 120px;
+    }
+}

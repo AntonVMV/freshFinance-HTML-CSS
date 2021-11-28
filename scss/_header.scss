@@ -6,7 +6,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 91px;
+    padding: 17px 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .logo{
@@ -23,6 +29,10 @@
     list-style: none;
     color: #fff;
     line-height: 24px;
+}
+
+.menu__list_mobile{
+    display: none;
 }
 
 .header__button{
@@ -42,4 +52,84 @@
     display: inline-block;
     content: url(../img/arrow-rigth.png);
     margin-left: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .header{
+        background-color: #fff;
+        position: relative;
+    }
+
+    .logo{
+        color: #252B42;
+        margin: 0;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu__list{
+        position: relative;
+        width: 100%;
+        color: #737373;
+        background-color: #fff;
+        padding: 0 0 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease;
+        transform: translateX(0);
+    }
+
+    .hidden{
+        transition: all 0.5s ease;
+        position: absolute;
+        transform: translateX(-100%);
+        z-index: -9;
+    }
+
+    .menu__item{
+        margin-top: 30px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .header__button{
+        display: none;
+    }
+
+    .header__login{
+        display: none;
+    }
+
+    .menu__list_mobile{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    
+    .mobile__btn{
+        width: 24px;
+        height: 24px;
+        background-color: #fff;
+        border: none;
+        margin-left: 20px;
+    }
+
+    .search__btn{    
+        background: url('../img/search-icn.png') center center no-repeat;
+    }
+
+    .shopping__btn{
+        background: url('../img/shopping-icn.png') center center no-repeat;  
+    }
+
+    .burger__btn{
+        background: url('../img/menu-icn.png') center center no-repeat;
+        margin-left: 34px; 
+    }
 }

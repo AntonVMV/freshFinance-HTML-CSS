@@ -27,7 +27,17 @@ strategyCards.forEach(item => {
 })
 
 
-
 function classToggle(){
     this.classList.toggle('active');
+}
+
+/// Burger btn
+
+const burgerBtn = document.querySelector('.burger__btn');
+const burgerMenu = document.querySelector('.menu__list');
+
+burgerBtn.addEventListener('click', burgerToggle);
+
+function burgerToggle() {
+    burgerMenu.classList.toggle('hidden');    
 }

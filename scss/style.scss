@@ -28,3 +28,9 @@ body {
     line-height: 22px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+    .wrap{
+        width: 340px;
+    }
+}

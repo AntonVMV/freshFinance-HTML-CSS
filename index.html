@@ -12,10 +12,15 @@
 <body>
 
     <div class="header">
-        <div class="wrap header__wrap">
-            <a href="#" class="logo text-large">BrandName</a>
+        <div class="wrap header__wrap">      
             <nav class="menu">
-                <ul class="menu__list">
+                <a href="#" class="logo text-large">BrandName</a>
+                <ul class="menu__list_mobile">
+                    <li><button class="mobile__btn search__btn"></button></li>
+                    <li><button class="mobile__btn shopping__btn"></button></li>
+                    <li><button class="mobile__btn burger__btn"></button></li>
+                </ul>
+                <ul class="menu__list hidden">
                     <li class="menu__item text-xsmall">Home</li>
                     <li class="menu__item text-xsmall">Product</li>
                     <li class="menu__item text-xsmall">Pricing</li>
@@ -114,7 +119,7 @@
                 <h2 class="reviews__title text-xlarge">What Clients Say</h2>
                 <p class="reviews__text text-xsmall_thin">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
-                <div class="reviews__cards element-animation">
+                <div class="reviews__cards">
                     <div class="rewiew__card">
                         <img src="img/user1.png" alt="" class="review__card_avatar">
                         <p class="review__card_text text-xsmall_thin">Slate helps you see how
@@ -148,7 +153,7 @@
                 <p class="aboutus__text text-xsmall_thin">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
                 <div class="aboutus__content">
-                    <video controls poster="img/card-item.png"></video>
+                    <video controls poster="img/card-item.png" class="aboutus__video"></video>
                     <div class="aboutus__info">
                         <h3 class="aboutus__info_title text-large ">Most trusted in our field</h3>
                         <p class="aboutus__info_text text-xsmall_thin">Most calendars are designed for teams. Slate

@@ -31,7 +31,6 @@
     transition: 0.5s ease;
 }
 
-
 .card__name{
     margin: 0 0 35px;
     text-transform: uppercase;
@@ -104,6 +103,26 @@
 
     .card__desription{
         color: white;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .pricing__wrap{
+        text-align: center;
+        padding: 0 0 60px;
+    }
+
+    .pricing__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+        align-items: flex-end;
+    }
+
+    .pricing__card_item{
+        display: flex;
+        align-items: flex-start;
+        text-align: start;
     }
 }
 

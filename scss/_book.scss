@@ -24,3 +24,28 @@
 .book__form_btn{
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 450px) {
+    .book__wrap{
+        position: static;
+        height: 100%;
+    }
+
+    .book__form_img{
+        display: none;
+    }
+
+    .book__form{
+        padding: 0;
+        margin: 20px 0;
+        width: auto;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: static;
+        transform: translate(0%);
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+}

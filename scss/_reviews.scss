@@ -15,18 +15,13 @@
 }
 
 .reviews__cards{
-    opacity: 0;
-    transform: translateY(50%);
-    transition: 1s ease;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
 }
 
-.reviews__cards.active{
-    opacity: 1;
-    transform: translateY(0);
-}
+
 
 .rewiew__card{
     margin: 0 15px;
@@ -43,4 +38,17 @@
 .review__card_text{
     margin-bottom: 15px;
     color: #737373;
+}
+
+@media screen and (max-width: 450px) {
+    .reviews__wrap{
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .reviews__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
 }

@@ -57,3 +57,45 @@
     content: url(../img/icnSet1.png);
     grid-row: 1 / 3;
 }
+
+@media screen and (max-width: 450px) {
+    .aboutus__wrap{
+        text-align: center;   
+        padding: 60px 0;
+    } 
+
+    .aboutus__text{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 220px;
+    }
+
+    .aboutus__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        row-gap: 72px;
+        justify-items: center;
+    }
+    
+    .aboutus__video{
+        width: 320px;
+    }
+
+    .aboutus__info{
+        text-align: center;
+    }
+
+    .aboutus__info_title{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+    }
+    
+    .aboutus__info_text{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px
+    }
+}

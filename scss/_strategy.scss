@@ -86,3 +86,27 @@
     text-decoration: none;
     color: #23A6F0;
 }
+
+@media screen and (max-width: 450px) {
+    .strategy__title{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        width: 330px;
+    } 
+
+    .stategy__text{
+        width: 220px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .strategy__cards{
+        opacity: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        transition: 1s ease;
+    }
+}
