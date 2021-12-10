@@ -41,3 +41,5 @@ burgerBtn.addEventListener('click', burgerToggle);
 function burgerToggle() {
     burgerMenu.classList.toggle('hidden');   
 }
+
+console.log('Some chnages');
